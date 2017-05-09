@@ -1,0 +1,413 @@
+
+
+div.header div.header1 h1 {
+	padding-top:5px;
+	text-align: center;
+	
+}
+div.header div.header1 h1 a{
+	font-family:Brush Script MT,cursive;
+	font-size: 53px;
+	color:black;
+	text-decoration: none;
+	
+}
+div.header div.header1 h1 a:hover{
+	opacity: 0.5;
+}
+body {
+		background-color:teal;
+}
+div.nav ul{
+	list-style-type: none;
+	padding:0;
+	width:600px;
+	margin-right:auto;
+	margin-left:auto;
+}
+div.nav:after{
+	content:"";
+	clear:both;
+	display:block;
+	height:500px;
+	width:100%;
+}
+div.nav ul li{
+	float:left;
+	padding:8px 1px;
+	margin-left:auto;
+	margin-right:auto;
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+	display:block;
+}
+div.nav li > input{
+	display:none;
+}
+div.nav li > label{
+	font-family:Franklin Gothic Medium;
+	font-size:13pt;
+	display:block;
+	height:30px;
+	line-height:30px;
+	padding:1px 16px;
+	cursor:pointer;
+	border-radius: 30px 10px;
+	
+}
+div.nav ul li:hover{
+	background-color:teal;
+}
+div.nav div.tab-content{
+	display:none;
+	position:absolute;
+	left:5px;
+	height:605px;
+	overflow-y:scroll;
+	margin-top:10px;
+	width:100%;
+
+}
+div.nav li > input:checked + label{
+	background-color:black;
+	color:teal;
+}
+div.nav li > input:checked ~ div.tab-content{
+	display:block;
+}
+
+div.table1 table{
+	width:85%;
+	margin:auto;
+	padding:10px;
+}
+div.table1 table tr td img {
+	width: 350px;
+	height: 400px;
+	padding-right:40px;
+	padding-left:30px;
+	padding-top:40px;
+	padding-bottom:30px;
+}
+div.table1 table tr td {
+	font-family:Franklin Gothic Medium;
+	font-size:14pt;
+	padding-right:40px;
+	padding-top:30px;
+}
+div.tab-content div.table1 table tr td a{
+	text-decoration: none;
+	font-family:Franklin Gothic Medium;
+	color:midnightblue;
+	opacity: 0.9;
+}
+div.tab-content div.table1 table tr td a:hover{
+	opacity: 0.5;
+}
+div.social div.icons{
+	position: absolute;
+	left: 10px;
+	bottom:0px;
+	width:98%;
+}
+div.social div.icons a img{
+	width:45px;
+	bottom:5px;
+	left:5px;
+	float:left;
+	position:static;
+}
+div.social div.icons table tr td p{
+	font-family:Gramond;
+	font-size:10pt;
+	bottom:5px;
+	position:absolute;
+	right:5px;
+}
+div.social div.icons a img:hover{
+	opacity: 0.5;
+}
+
+div.tab-content div.table2 table tr td{
+	font-family:Brush Script MT;
+	font-size:20pt;
+	text-align:center;
+}
+
+div.tab-content div.table2 table tr td p{
+	font-family:Franklin Gothic Medium;
+	font-size:14pt;
+	text-align:center;
+	padding:5px;
+}
+
+div.tab-content div.table2 table{
+	width:85%;
+	margin:auto;
+	
+}
+div.tab-content div.table2 table tr td p{
+	border: 3px solid black;
+	width:600px;
+	height:300px;
+	margin: auto;
+	padding-top:30px;
+}
+div.tab-content div.table2 table tr td a img{
+	width:350px;
+	height:300px;
+	padding-bottom:30px;
+	opacity:0.5;
+	display: inline-flex;
+}
+div.tab-content div.table2 h1{
+	width: 400px;
+	text-align:center;
+	font-family:Brush Script MT;
+	font-size:35pt;
+	padding:10px;
+	margin:0 auto;
+}
+div.tab-content div.table2 h2{
+	border: 3px solid black;
+	width: 400px;
+	text-align:center;
+	font-family:Franklin Gothic Medium;
+	font-size:16pt;
+	padding:10px;
+	margin:0 auto;
+}
+div.tab-content div.table2 table tr td a img:hover{
+	opacity:1;
+}
+div.tab-content div.table2 p{
+	text-align:center;
+	font-family:Franklin Gothic Medium;
+	font-size:16pt;
+	padding:10px;
+	width:400px;
+	border: 3px solid black;
+	margin:0 auto;
+}
+div.tab-content div.table2 table tr td iframe{
+	display:block;
+	margin:auto;
+	width:640px;
+	height:480px;
+}
+div.tab-content div.table3 table{
+	width:1000px;
+	height:640px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+div.tab-content div.table3 table tr td{
+	width:1000px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.tab-content div.table3 table tr td h1{
+	font-size:35pt;
+	font-family:Brush Script MT;
+	width:240px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:-6px;
+	text-align: center;
+}
+div.tab-content div.table3 table tr td p{
+	font-size:14pt;
+	font-family:Franklin Gothic Medium;
+	text-align: center;
+	border: 3px solid black;
+	padding:10px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	
+}
+div.tab-content div.table3 table tr td p a{
+	text-decoration: none;
+	color:midnightblue;
+}
+div.tab-content div.table3 table tr td p a:hover{
+	opacity: 0.5;
+}
+div.tab-content div.table4 table tr td h1{
+	width:160px;
+	font-family:Brush Script MT;
+	font-size:30pt;
+	margin:0 auto;
+	padding:5px;
+}
+div.tab-content div.table4 table tr td p{
+	border: 3px solid black;
+	font-family:Franklin Gothic Medium;
+	font-size:14pt;
+	width:600px;
+	margin:0 auto;
+	padding:10px;
+}
+div.tab-content div.table4 table tr td p a{
+	text-decoration: none;
+	color:midnightblue;
+}
+div.tab-content div.table4 table tr td p a:hover{
+	opacity: 0.5;
+}
+div.tab-content div.table4 table{
+	width:100%;
+}
+div.tab-content div.table4 table tr td{
+	width:500px;
+	heigh:500px;
+}
+div.tab-content div.table4 table tr td a img{
+	width:80px;
+	height:80px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top:30px;
+}
+div.tab-content div.table4 table tr td a img:hover{
+	opacity: 0.5;
+}
+div.tab-content div.table4 table tr td h2 a{
+	text-decoration:none;
+	font-family:Brush Script MT;
+	font-size:35px;
+	color:black; 
+	padding-bottom:10px;
+    margin-left: auto;
+    margin-right: auto;
+	width:300px;
+	display:block;
+	text-align:center;
+}
+div.tab-content div.table4 table tr td h2 a:hover{
+	opacity: 0.5;
+}
+div.tab-content div.table4 table tr td img{
+	width:650px;
+	height:900px;
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+}
+div.tab-content div.table5 table{
+	width:100%;
+}
+
+div.tab-content div.table5 table tr td h1{
+	width:600px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 14pt;
+	font-family:Franklin Gothic Medium;
+	text-align:center;
+}
+div.tab-content div.table5 table tr td h2{
+	width:400px;
+	height:75px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+div.tab-content div.table5 table tr td p a img{
+	font-size:4pt;
+	width:150px;
+	height:150px;
+	float:left;
+}
+div.tab-content div.table5 table tr td p a img:hover{
+	opacity: 0.5;
+}
+div.tab-content div.table5 table tr td p {
+		width:470px;
+		height:160px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+}
+
+div.tab-content div.table5 table tr td{
+	width:15px;
+}
+div.tab-content div.table5 table tr td h2{
+	border: 3px solid black;
+	text-align: center;
+	width:340px;
+	height:55px;
+	
+}
+div.tab-content div.table5 table tr td h2 a{
+	text-align:center;
+	text-decoration: none;
+	font-family:Franklin Gothic Medium;
+	color:midnightblue;
+}
+div.tab-content div.table5 table tr td h2 a:hover{
+	opacity: 0.5;
+}
+div.survey h1{
+	width:500px;
+	margin:auto;
+	display: block;
+	font-size: 16pt;
+	color:black;
+	text-align: center;	
+	font-family:Franklin Gothic Medium;
+}
+div.survey table tr td form{
+	width:400px;
+	text-align: center;
+	display:block;
+	margin:auto;
+	font-size: 14pt;
+	font-family:Franklin Gothic Medium;
+	border: 3px solid black;
+}
+div.survey table tr td form button{
+	background-color:black;
+	color:white;
+	font-size: 16pt;
+	font-family:Franklin Gothic Medium;
+}
+div.survey table tr td form button:hover{
+	background-color:dimgrey;
+}
+div.survey table tr td form input{
+	background-color:black;
+	color:white;
+	font-size: 14pt;
+	opacity: 0.8;
+	font-family:Franklin Gothic Medium;
+}
+div.survey table tr td form option{
+	background-color:black;
+	color:white;
+	font-size: 14pt;
+	opacity: 0.8;
+	font-family:Franklin Gothic Medium;
+}
+div.survey table tr td form select{
+	background-color:black;
+	color:white;
+	font-size: 14pt;
+	opacity: 0.8;
+	font-family:Franklin Gothic Medium;
+}
+div.survey table tr td form textarea{
+	background-color:black;
+	color:white;
+	font-size: 14pt;
+	opacity: 0.8;
+	font-family:Franklin Gothic Medium;
+}
